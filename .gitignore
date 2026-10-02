@@ -1,0 +1,12 @@
+# Ignore Obsidian workspace layout and local caches
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/graph.json
+.obsidian/backlink.json
+
+# Ignore OS system files
+.DS_Store
+Thumbs.db
+
+# Optional: Ignore community plugin settings if you want a clean setup across different devices
+# .obsidian/plugins/

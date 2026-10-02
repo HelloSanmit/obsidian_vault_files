@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"342953c015544b9e","type":"text","text":"Machine Learning","x":-120,"y":-200,"width":250,"height":60,"color":"5"},
+		{"id":"d87f06cc031a03dc","type":"text","text":"Maths","x":480,"y":43,"width":250,"height":60,"color":"4"},
+		{"id":"dd9e5c870d85650b","type":"text","text":"Models","x":-697,"y":43,"width":250,"height":60,"color":"4"},
+		{"id":"dfe915b3731844be","type":"file","file":"ML/Self-Supervised Learning.md","x":-1160,"y":245,"width":340,"height":50},
+		{"id":"98f0f6ad761c750f","type":"file","file":"ML/Unsupervised Learning.md","x":-1240,"y":445,"width":340,"height":50},
+		{"id":"22924e487261e9de","type":"file","file":"ML/Reinforcement Learning.md","x":-325,"y":245,"width":330,"height":50},
+		{"id":"76d230266e50d6fd","type":"file","file":"ML/Supervised Learning.md","x":-240,"y":445,"width":295,"height":50},
+		{"id":"ee2860b3e0b08280","type":"file","file":"ML/ML Formulas 2.md","x":300,"y":340,"width":220,"height":50},
+		{"id":"68cc4691e433ab62","type":"file","file":"ML/ML Formulas.md","x":680,"y":340,"width":220,"height":50},
+		{"id":"c0e7b98e90ea8527","type":"text","text":"Books","x":1160,"y":43,"width":250,"height":60,"color":"4"}
+	],
+	"edges":[
+		{"id":"40a3b46fe2af35a1","fromNode":"342953c015544b9e","fromSide":"bottom","toNode":"dd9e5c870d85650b","toSide":"top"},
+		{"id":"355854310d0166dc","fromNode":"342953c015544b9e","fromSide":"bottom","toNode":"d87f06cc031a03dc","toSide":"top"},
+		{"id":"83d0da00182bc05a","fromNode":"dd9e5c870d85650b","fromSide":"bottom","toNode":"22924e487261e9de","toSide":"top"},
+		{"id":"d525e628c77b7916","fromNode":"dd9e5c870d85650b","fromSide":"bottom","toNode":"dfe915b3731844be","toSide":"top"},
+		{"id":"e4c47c679e8fa11a","fromNode":"dd9e5c870d85650b","fromSide":"bottom","toNode":"98f0f6ad761c750f","toSide":"right"},
+		{"id":"2cc45a5cb4f3af79","fromNode":"dd9e5c870d85650b","fromSide":"bottom","toNode":"76d230266e50d6fd","toSide":"left"},
+		{"id":"9751663c39de50c5","fromNode":"d87f06cc031a03dc","fromSide":"bottom","toNode":"ee2860b3e0b08280","toSide":"top"},
+		{"id":"394ce2316837cc46","fromNode":"d87f06cc031a03dc","fromSide":"bottom","toNode":"68cc4691e433ab62","toSide":"top"},
+		{"id":"17336ead85539a24","fromNode":"342953c015544b9e","fromSide":"bottom","toNode":"c0e7b98e90ea8527","toSide":"top"}
+	]
+}
